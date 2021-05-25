@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[3],{133:function(a,e,t){},134:function(a,e,t){"use strict";t.r(e);var n=t(0),c=t.n(n);t(133);e.default=function(){return c.a.createElement("div",{className:"watermark"},c.a.createElement("img",{className:"logoImage",src:"https://searchingyard.com/assets/img/favicon.png",alt:"SearchingYard Logo"}),c.a.createElement("span",{className:"logoText"},"SearchingYard"))}}}]);
+//# sourceMappingURL=3.3566d5ea.chunk.js.map

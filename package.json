@@ -1,0 +1,23 @@
+{
+  "name": "video-chat-server",
+  "version": "0.1.0",
+  "description": "Server for React video chat client",
+  "main": "server.js",
+  "author": "SearchingYard <SearchingYard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "awake-heroku": "^1.0.17",
+    "express": "^4.17.1",
+    "socket.io": "^2.4.0",
+    "username-generator": "^1.1.0"
+  },
+  "scripts": {
+   
+    "build": "cd client && npm run build",
+    "install-client":"cd client && npm install",
+    "heroku-postbuild":"npm run install-client && npm run build",
+    "start": "node server.js",
+    "client":"cd client && npm start",
+    "test": "react-scripts test"
+  }
+}
